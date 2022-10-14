@@ -1,7 +1,51 @@
+:root {
+  --primary-font: "Noto Serif Telugu", serif;
+  --secondary-font: "Comforter Brush", cursive;
+  --primary-background: #fff5ff;
+}
+
+p {
+  font-family: var(--primary-font);
+}
+
 h1 {
-  font-family: "Comforter Brush", cursive;
+  font-family: var(--primary-font);
 }
 
 h2 {
   font-family: "Noto Serif Telugu", serif;
+}
+
+body {
+  background-color: var(--primary-background);
+}
+
+.intro {
+  text-align: center;
+  padding: 50px;
+  background-color: var(--primary-background);
+}
+
+.btn-branding {
+  text-decoration: none;
+  border-width: 1px;
+  border-color: grey;
+  margin-right: 1em;
+  color: black;
+  background-color: white;
+  text-transform: uppercase;
+  font-weight: 300;
+  opacity: 0.8;
+  box-shadow: 1px 1px 2px rgb(0 0 0 / 47%);
+  margin-bottom: 1em;
+}
+
+.btn-branding:hover {
+  background-color: #e865ed;
+  box-shadow: none;
+  color: var(--primary-background);
+}
+
+.about {
+  font-family: var(--secondary-font);
 }
