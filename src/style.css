@@ -2,6 +2,7 @@
   --primary-font: "Noto Serif Telugu", serif;
   --secondary-font: "Comforter Brush", cursive;
   --primary-background: #fff5ff;
+  --secondary-background: #f966ff;
 }
 
 p {
@@ -26,7 +27,8 @@ body {
   background-color: var(--primary-background);
 }
 
-.btn-branding {
+.btn-branding,
+.btn-branding-outline {
   text-decoration: none;
   border-width: 1px;
   border-color: grey;
@@ -40,7 +42,8 @@ body {
   margin-bottom: 1em;
 }
 
-.btn-branding:hover {
+.btn-branding:hover,
+.btn-branding-outline:hover {
   background-color: #e865ed;
   box-shadow: none;
   color: var(--primary-background);
@@ -48,4 +51,14 @@ body {
 
 .about {
   font-family: var(--secondary-font);
+}
+.yogurt-project {
+  padding: 120px 60px;
+}
+
+@media (max-width: 960px) {
+  .yogurt-project {
+    padding: 0;
+    text-align: center;
+  }
 }
