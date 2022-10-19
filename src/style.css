@@ -11,6 +11,7 @@ p {
 
 h1 {
   font-family: var(--primary-font);
+  text-align: center;
 }
 
 h2 {
@@ -50,6 +51,7 @@ body {
 }
 
 .about {
+  text-align: center;
   font-family: var(--secondary-font);
 }
 .yogurt-project {
@@ -61,4 +63,31 @@ body {
     padding: 0;
     text-align: center;
   }
+
+  .about {
+    text-align: center;
+  }
+}
+
+.nav-link:hover {
+  font-style: italic;
+  font-weight: 600;
+}
+
+.logo {
+  font-family: var(--secondary-font);
+  font-size: 30px;
+}
+
+.selfie {
+  text-align: center;
+  border-radius: 10px;
+}
+
+.bio {
+  padding: 20px 15px 25px 10px;
+}
+
+.my-project {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
