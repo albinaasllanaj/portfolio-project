@@ -69,7 +69,8 @@ body {
   }
 }
 
-.nav-link:hover {
+.nav-link:hover,
+.active {
   font-style: italic;
   font-weight: 600;
 }
