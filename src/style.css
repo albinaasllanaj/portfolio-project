@@ -91,3 +91,15 @@ body {
 .my-project {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
+
+.work-container {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.yog-pro:hover,
+.wea-pro:hover,
+.dic-pro:hover {
+  transform: scale(1.2);
+}
