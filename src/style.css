@@ -96,6 +96,7 @@ body {
   text-align: center;
   display: flex;
   justify-content: space-evenly;
+  font-family: var(--primary-font);
 }
 
 .yog-pro:hover,
