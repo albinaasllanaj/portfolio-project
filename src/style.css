@@ -3,6 +3,7 @@
   --secondary-font: "Comforter Brush", cursive;
   --primary-background: #fff5ff;
   --secondary-background: #f966ff;
+  --primary-color: black;
 }
 
 p {
@@ -44,10 +45,25 @@ body {
 }
 
 .btn-branding:hover,
-.btn-branding-outline:hover {
+.btn-branding-outline:hover,
+.btn-contact:hover {
   background-color: #e865ed;
   box-shadow: none;
   color: var(--primary-background);
+}
+
+.btn-contact {
+  text-decoration: none;
+  border-width: 1px;
+  border-color: grey;
+  color: black;
+  background-color: var(--primary-background);
+  text-transform: uppercase;
+  font-weight: 300;
+  opacity: 0.8;
+  box-shadow: 1px 1px 2px rgb(0 0 0 / 47%);
+  padding: 5px 5px;
+  font-size: small;
 }
 
 .about {
@@ -109,4 +125,28 @@ body {
 .contact-container {
   text-align: center;
   font-family: var(--primary-font);
+}
+
+.social-links {
+  margin: 0 20px;
+  color: var(--primary-color);
+  background-color: var(--primary-background);
+  padding: 10px 14px;
+  border-radius: 50%;
+}
+
+.social-links:hover {
+  background-color: var(--secondary-background);
+  color: white;
+}
+
+.inquiry {
+  font-family: var(--primary-font);
+  text-align: center;
+}
+
+.contact-info {
+  background-color: white;
+  padding: 30px;
+  max-width: 100%;
 }
