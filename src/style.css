@@ -150,3 +150,7 @@ body {
   padding: 30px;
   max-width: 100%;
 }
+
+.view-projects {
+  font-size: larger;
+}
